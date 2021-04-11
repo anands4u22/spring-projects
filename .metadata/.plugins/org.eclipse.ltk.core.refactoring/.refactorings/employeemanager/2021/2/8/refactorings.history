@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;tech.getarrays.employeemanager.repository&apos; to &apos;tech.getarrays.employeemanager.repo&apos;&#x0D;&#x0A;- Original project: &apos;employeemanager&apos;&#x0D;&#x0A;- Original element: &apos;employeemanager/src/main/java/tech.getarrays.employeemanager.repository&apos;&#x0D;&#x0A;- Renamed element: &apos;employeemanager/src/main/java/tech.getarrays.employeemanager.repo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;tech.getarrays.employeemanager.repository&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;tech.getarrays.employeemanager.repository" name="tech.getarrays.employeemanager.repo" qualified="false" references="true" stamp="1613402532510" textual="false" version="1.0"/>
+</session>
