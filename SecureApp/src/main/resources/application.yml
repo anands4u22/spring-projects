@@ -1,0 +1,31 @@
+spring:  
+  jpa:  
+    hibernate:  
+      ddl-auto: create  
+    database-platform: org.hibernate.dialect.PostgreSQLDialect  
+  datasource: 
+    driver-class-name: org.postgresql.Driver 
+    url: "jdbc:postgresql://localhost:5432/springbootjpa"  
+    username: jpauser  
+    password: secret
+    
+  profiles:
+    active: google
+# Spring Security configuration
+security:
+  oauth2:
+    client:
+      clientId: 165237589694-hpcvotg3rg3uhenmo1lfjtfj28rdtiaa.apps.googleusercontent.com
+      clientSecret: X3qSo5mb2zgao58OX7o28icd
+      accessTokenUri: https://www.googleapis.com/oauth2/v4/token
+      userAuthorizationUri: https://accounts.google.com/o/oauth2/v2/auth
+      token-name: oauth_token
+      authentication-scheme: query
+      client-authentication-scheme: form
+      clientAuthenticationScheme: form
+      scope:
+        - email
+        - profile
+    resource:
+      userInfoUri: https://www.googleapis.com/oauth2/v3/userinfo
+      preferTokenInfo: true
